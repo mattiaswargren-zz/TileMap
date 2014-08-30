@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tilemap", "tilemap\tilemap.csproj", "{6A6D44F4-E894-4344-A5A1-18B2320427A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tilemap.tests", "tilemap.tests\tilemap.tests.csproj", "{C5D67ECD-DE55-44E8-AF66-74C85914E83E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A6D44F4-E894-4344-A5A1-18B2320427A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A6D44F4-E894-4344-A5A1-18B2320427A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A6D44F4-E894-4344-A5A1-18B2320427A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A6D44F4-E894-4344-A5A1-18B2320427A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D67ECD-DE55-44E8-AF66-74C85914E83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D67ECD-DE55-44E8-AF66-74C85914E83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D67ECD-DE55-44E8-AF66-74C85914E83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D67ECD-DE55-44E8-AF66-74C85914E83E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = tilemap\tilemap.csproj
+		Policies = $0
+		$0.StandardHeader = $1
+		$1.Text = Copyright (c) ${Year} ${CopyrightHolder}
+		$1.IncludeInNewFiles = True
+		$0.TextStylePolicy = $2
+		$2.TabsToSpaces = False
+		$2.NoTabsAfterNonTabs = True
+		$2.inheritsSet = VisualStudio
+		$2.inheritsScope = text/plain
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.IndentSwitchBody = True
+		$3.IndentBreakStatements = False
+		$3.EventBraceStyle = NextLine
+		$3.StatementBraceStyle = NextLine
+		$3.ElseNewLinePlacement = NewLine
+		$3.CatchNewLinePlacement = NewLine
+		$3.FinallyNewLinePlacement = NewLine
+		$3.WhileNewLinePlacement = DoNotCare
+		$3.ArrayInitializerWrapping = DoNotChange
+		$3.ArrayInitializerBraceStyle = NextLine
+		$3.BeforeMethodDeclarationParentheses = False
+		$3.BeforeMethodCallParentheses = False
+		$3.BeforeConstructorDeclarationParentheses = False
+		$3.BeforeDelegateDeclarationParentheses = False
+		$3.NewParentheses = False
+		$3.SpacesBeforeBrackets = False
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/x-csharp
+		$3.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal
